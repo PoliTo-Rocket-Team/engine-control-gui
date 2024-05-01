@@ -1,0 +1,20 @@
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\bin\Debug\Arduino GUI.exe.config
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\bin\Debug\Arduino GUI.exe
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\bin\Debug\Arduino GUI.pdb
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino GUI.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino_GUI.Form1.resources
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino_GUI.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino GUI.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino GUI.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino GUI.exe
+C:\Users\ADMIN\source\repos\Arduino GUI\Arduino GUI\obj\Debug\Arduino GUI.pdb
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino GUI.csproj.AssemblyReference.cache
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino_GUI.Form1.resources
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino_GUI.Properties.Resources.resources
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino GUI.csproj.GenerateResource.cache
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino GUI.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino GUI.exe
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\obj\Debug\Arduino GUI.pdb
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\bin\Debug\Arduino GUI.exe.config
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\bin\Debug\Arduino GUI.exe
+C:\Users\ADMIN\source\repos\Arduino GUI-8\Arduino GUI\bin\Debug\Arduino GUI.pdb
