@@ -9,6 +9,8 @@ String t = "";
 const byte numChars = 32; //variables for receiving data
 char receivedChars[numChars];
 boolean newData = false;
+String receivedString = "";
+static boolean recvInProgress = false;
 
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT); //pin setup
@@ -41,7 +43,6 @@ void send_data(String data, String header){ //function to send send data. Not ve
 }
 
 String receive() { //function to read data if present in the buffer memory
-    static boolean recvInProgress = false;
     newData = false;
     static byte ndx = 0;
     char startMarker = '<';
@@ -64,6 +65,7 @@ String receive() { //function to read data if present in the buffer memory
                 recvInProgress = false;
                 ndx = 0;
                 newData = true;
+                return String(receivedChars);
             }
         }
 
@@ -71,7 +73,10 @@ String receive() { //function to read data if present in the buffer memory
             recvInProgress = true;
         }
     }
-    return String(receivedChars);
+
+    if (recvInProgress == true){
+      return "";
+    }
 }
 
 void loop() {
@@ -79,7 +84,6 @@ void loop() {
   send_data(t, "S2");
 
   if(Serial.available()){ //if data is received
-
     data = receive(); //reads the received data
 
     if (data == "ToggleLED"){ //LED flash instruction (example)
@@ -89,6 +93,7 @@ void loop() {
     }
     else if (data[0] == char('R')){ //if the first character is 'R' it repeats the same string back to the computer but starting with 'S'
       send_data(data.substring(1), "S1");
+      send_data(String(receivedChars), "S4");
     }
   }
 
